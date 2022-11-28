@@ -1483,8 +1483,8 @@ input:checked + .toggle-bg{
   padding-bottom: 0.5rem;
 }
 
-.pb-20{
-  padding-bottom: 5rem;
+.pb-24{
+  padding-bottom: 6rem;
 }
 
 .pt-2{
@@ -1830,16 +1830,28 @@ input:checked + .toggle-bg{
 }
 
 @media (min-width: 768px){
-  .md\:mt-\[-50px\]{
-    margin-top: -50px;
-  }
-
-  .md\:mt-8{
-    margin-top: 2rem;
-  }
-
   .md\:mt-\[50px\]{
     margin-top: 50px;
+  }
+
+  .md\:ml-6{
+    margin-left: 1.5rem;
+  }
+
+  .md\:ml-10{
+    margin-left: 2.5rem;
+  }
+
+  .md\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .md\:ml-2{
+    margin-left: 0.5rem;
+  }
+
+  .md\:mt-\[-50px\]{
+    margin-top: -50px;
   }
 
   .md\:block{
@@ -1858,20 +1870,12 @@ input:checked + .toggle-bg{
     width: auto;
   }
 
-  .md\:w-\[200px\]{
-    width: 200px;
-  }
-
-  .md\:w-96{
-    width: 24rem;
-  }
-
-  .md\:w-48{
-    width: 12rem;
-  }
-
   .md\:w-64{
     width: 16rem;
+  }
+
+  .md\:w-\[200px\]{
+    width: 200px;
   }
 
   .md\:justify-between{
@@ -1896,6 +1900,10 @@ input:checked + .toggle-bg{
     padding-right: 1.25rem;
   }
 
+  .md\:text-\[54px\]{
+    font-size: 54px;
+  }
+
   .md\:text-\[27px\]{
     font-size: 27px;
   }
@@ -1903,14 +1911,6 @@ input:checked + .toggle-bg{
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
-  }
-
-  .md\:text-\[45px\]{
-    font-size: 45px;
-  }
-
-  .md\:text-\[52px\]{
-    font-size: 52px;
   }
 }
 
