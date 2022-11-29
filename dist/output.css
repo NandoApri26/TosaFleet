@@ -1148,6 +1148,30 @@ input:checked + .toggle-bg{
   margin-bottom: 0.25rem;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-60{
+  margin-top: 15rem;
+}
+
+.mt-28{
+  margin-top: 7rem;
+}
+
+.mt-24{
+  margin-top: 6rem;
+}
+
+.mt-21{
+  margin-top: 84px;
+}
+
+.mt-16{
+  margin-top: 4rem;
+}
+
 .block{
   display: block;
 }
@@ -1255,6 +1279,22 @@ input:checked + .toggle-bg{
 
 .w-\[165px\]{
   width: 165px;
+}
+
+.w-\[135px\]{
+  width: 135px;
+}
+
+.w-\[235px\]{
+  width: 235px;
+}
+
+.w-\[335px\]{
+  width: 335px;
+}
+
+.w-\[275px\]{
+  width: 275px;
 }
 
 .flex-1{
@@ -1369,6 +1409,10 @@ input:checked + .toggle-bg{
 
 .gap-3{
   gap: 0.75rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -1493,6 +1537,11 @@ input:checked + .toggle-bg{
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#7E7E7E\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(126 126 126 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -1587,6 +1636,10 @@ input:checked + .toggle-bg{
 
 .pb-\[50px\]{
   padding-bottom: 50px;
+}
+
+.pb-20{
+  padding-bottom: 5rem;
 }
 
 .text-center{
